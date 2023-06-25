@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo img {
+    width: 15 0px;
+}
+
+.header_search input{
+    padding: 8px 50px 8px 0px;
+}
+.header_search button{
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+
+
+
+
+.banner img{
+    width: 100%;
+}
+
+
+
+
+
+.best_seller{
+
+}
+.best_seller-title{
+    text-align: center;
+    color: red;
+}
+.best_seller-content{
+    display: flex;
+    justify-content: center;
+
+
+}
+.best_seller-content-image, .best_seller-content-detail {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 5);
+    margin: 0 14px;
+}   
+
+.best_seller-content-image{
+    max-width: calc((100%/12)*6);
+}
+
+.best_seller-content-image img {
+    width: 100%;
+}
+
+.best_seller-content-detail{
+    max-width: calc((100%/12)*6);
+
+}
+
+.best_seller-content-detail-info {
+    margin-left: 20px;
+}
+
+.best_seller-content-detail h2{
+    margin-top: 0px;
+    color: rgb(0, 162, 255);
+}
+
+.best_seller-content-detail p {
+    border-bottom: 1px solid black;
+}
+
